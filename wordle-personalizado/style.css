@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+h1 {
+    color: #333;
+}
+
+:root {
+    --longitud-palabra: 5; /* Valor por defecto */
+}
+
+#tablero {
+    display: grid;
+    grid-template-columns: repeat(var(--longitud-palabra), 50px);
+    gap: 5px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.celda {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    border: 2px solid #ccc;
+    background-color: white;
+}
+
+.correcta {
+    background-color: #6aaa64;
+    color: white;
+}
+
+.presente {
+    background-color: #c9b458;
+    color: white;
+}
+
+.incorrecta {
+    background-color: #787c7e;
+    color: white;
+}
