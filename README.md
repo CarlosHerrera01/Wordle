@@ -1,2 +1,2 @@
 # Wordle
-Wordle to learn english vocabulary
+Wordle to learn health english vocabulary
